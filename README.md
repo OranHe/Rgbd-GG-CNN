@@ -1,8 +1,9 @@
 # Rgbd-GG-CNN
 A simple Rgbd Generative Grasping CNN (Rgbd-GG-CNN)
 # Here is the original paper: 
-[Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach](https://arxiv.org/abs/1804.05172)
-[github](https://github.com/dougsm/ggcnn)
+* [Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach](https://arxiv.org/abs/1804.05172)
+* [Github](https://github.com/dougsm/ggcnn)
+---
 ## Network Architecture
 ![img](network.png)
 ## Train
