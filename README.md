@@ -5,13 +5,16 @@ A simple Rgbd Generative Grasping CNN (Rgbd-GG-CNN)
 * [Github](https://github.com/dougsm/ggcnn)
 ---
 ## Network Architecture
-![img](network.png)
+![img](img/network.png)
 ## Train
 	train.py --dataset-path <Path>
 ## Test
 	test.py --network epoch_04_iou_0.90 --dataset Oran --dataset-path <Path> --vis
+## Test result
+![img](img/test_Example1.png)
+![img](img/test_Example2.png)
 ## Dataset Example
-![img](dataset_Example.png)
+![img](img/dataset_Example.png)
 [Download Link](https://gsnckuedutw-my.sharepoint.com/:f:/g/personal/p76083029_gs_ncku_edu_tw/Eoa97q76hi1EqC1UkkFWE-cBGgFkZVHRsflegyYuCVKx9g?e=dUVym8)
 
 
