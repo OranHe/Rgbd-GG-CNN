@@ -1,8 +1,10 @@
 # Rgbd-GG-CNN
 Rgbd Generative Grasping CNN (Rgbd-GG-CNN)
-@inproceedings{morrison2018closing,
-	title={{Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach}},
-	author={Morrison, Douglas and Corke, Peter and Leitner, J\"urgen},
-	booktitle={Proc.\ of Robotics: Science and Systems (RSS)},
-	year={2018}
-}
+
+# Here is the original network: https://github.com/dougsm/ggcnn
+## Train
+	train.py --dataset-path <Path>
+## Test
+	test.py --network epoch_04_iou_0.90 --dataset Oran --dataset-path <Path> --vis
+
+
