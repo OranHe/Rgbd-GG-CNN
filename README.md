@@ -4,8 +4,11 @@ A simple Rgbd Generative Grasping CNN (Rgbd-GG-CNN)
 * [Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach](https://arxiv.org/abs/1804.05172)
 * [Github](https://github.com/dougsm/ggcnn)
 ---
-## Network Architecture
+## Network Architecture V1
 ![img](img/network.png)
+## Network Architecture V2
+improve：Use MobileNetV3 to extract Features
+MobileNetV3(downsample 16 times),4 conv transpose layers(Upsample 16 times).
 ## Train
 	train.py --dataset-path <Path>
 ## Test
