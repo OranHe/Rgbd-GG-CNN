@@ -16,6 +16,8 @@ MobileNetV3(downsample 16 times),4 conv transpose layers(Upsample 16 times).
 ## Test result
 ![img](img/test_example1.png)
 ![img](img/test_example2.png)
+![img](img/test_example3.png)
+![img](img/test_example4.png)
 ## Dataset Example
 ![img](img/dataset_Example.png)
 [Download Link](https://gsnckuedutw-my.sharepoint.com/:f:/g/personal/p76083029_gs_ncku_edu_tw/Eoa97q76hi1EqC1UkkFWE-cBGgFkZVHRsflegyYuCVKx9g?e=dUVym8)
