@@ -14,7 +14,7 @@ MobileNetV3(downsample 16 times),4 conv transpose layers(Upsample 16 times).
 ## Test
 	test.py --network epoch_04_iou_0.90 --dataset Oran --dataset-path <Path> --vis
 ## Test result
-![img](img/test_example1.png)
+![img](img/test_example5.png)
 ![img](img/test_example2.png)
 ![img](img/test_example3.png)
 ![img](img/test_example4.png)
