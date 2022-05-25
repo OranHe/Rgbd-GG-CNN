@@ -10,6 +10,9 @@ A simple Rgbd Generative Grasping CNN (Rgbd-GG-CNN)
 improve：Use MobileNetV3 to extract Features
 ![img](img/networkV2.png)
 MobileNetV3(downsample 16 times),4 conv transpose layers(Upsample 16 times).
+## Network Architecture V3
+improve：Add a fusion layer after feature extraction
+![img](img/NetworkV3.png)
 ## Train
 	train.py --dataset-path <Path>
 ## Test
